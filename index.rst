@@ -1,0 +1,10 @@
+=======================
+Mutagen Spec Collection
+=======================
+
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+
+    id3/index
+    mpc/index
