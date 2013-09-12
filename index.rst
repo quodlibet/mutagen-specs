@@ -8,3 +8,4 @@ Mutagen Spec Collection
 
     id3/index
     mpc/index
+    apev2/index
