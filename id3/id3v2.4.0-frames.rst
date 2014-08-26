@@ -1572,6 +1572,8 @@ Encryption method registration
    See the description of the frame encryption flag in the ID3v2
    structure document [ID3v2-strct] for more information.
 
+::
+
      <Header for 'Encryption method registration', ID: "ENCR">
      Owner identifier    <text string> $00
      Method symbol       $xx
@@ -1600,6 +1602,8 @@ Group identification registration
    somewhere in the tag. See the description of the frame grouping flag
    in the ID3v2 structure document [ID3v2-strct] for more information.
 
+::
+
      <Header for 'Group ID registration', ID: "GRID">
      Owner identifier      <text string> $00
      Group symbol          $xx
@@ -1620,6 +1624,8 @@ Private frame
    for the frame. Questions regarding the frame should be sent to the
    indicated email address. The tag may contain more than one "PRIV"
    frame but only with different contents.
+
+::
 
      <Header for 'Private frame', ID: "PRIV">
      Owner identifier      <text string> $00
