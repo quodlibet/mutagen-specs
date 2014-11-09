@@ -10,3 +10,4 @@ Mutagen Spec Collection
     mpc/index
     apev2/index
     mp4/index
+    asf/index
