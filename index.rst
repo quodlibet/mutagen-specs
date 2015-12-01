@@ -11,3 +11,4 @@ Mutagen Spec Collection
     apev2/index
     mp4/index
     asf/index
+    ogg/index
