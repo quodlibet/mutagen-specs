@@ -104,3 +104,27 @@ Random Struct Decls
         ExtensionDescriptor extDescr[0 .. 255];
     }
 
+
+::
+
+    abstract class DecoderSpecificInfo extends BaseDescriptor :
+        bit(8) tag=DecSpecificInfoTag
+    {
+        // empty. To be filled by classes extending this class.
+    }
+
+AudioSpecificConfig if objectTypeIndication == 0x40 and streamType = 0x5
+
+::
+
+    AudioSpecificConfig extends DecoderSpecificInfo
+    {
+        bit(5) audioObjectType;
+        if (audioObjectType == 31) {
+            audioObjectType = 32 + bit(6) audioObjectTypeExt;
+        }
+
+        [...]
+    }
+
+audioObjectType is defined in 14496-3 1.6.2.2.1
