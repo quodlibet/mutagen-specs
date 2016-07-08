@@ -4,6 +4,8 @@ ID3
 .. toctree::
     :maxdepth: 1
 
+    id3v2.2
+
     id3v2.4.0-structure
     id3v2.4.0-frames
 
