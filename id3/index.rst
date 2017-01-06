@@ -6,6 +6,8 @@ ID3
 
     id3v2.2
 
+    id3v2.3.0
+
     id3v2.4.0-structure
     id3v2.4.0-frames
 
